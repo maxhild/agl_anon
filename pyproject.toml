@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "agl-crnn-anonymization"
+version = "0.1.0"
+description = "This package contains a CRNN Model trained to accurately filter out patient data from medical reports and replacing names with fake names."
+authors = ["maxhild <58726316+maxhild@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch= "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
